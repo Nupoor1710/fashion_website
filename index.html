@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Forward</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar" data-aos="fade-down">
+    <div class="logo">Fashion Forward</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" data-aos="zoom-in">
+    <h1 data-aos="fade-up" data-aos-delay="200">Step Into Style</h1>
+    <p data-aos="fade-up" data-aos-delay="400">Discover the latest trends in fashion</p>
+    <a href="#shop" class="btn" data-aos="fade-up" data-aos-delay="600">Shop Now</a>
+  </header>
+
+  <section id="shop" class="products" data-aos="fade-right">
+    <h2>Featured Collections</h2>
+    <div class="product-grid">
+      <div class="product-card" data-aos="flip-left">
+        <img src="images/img2.jpg" alt="Fashion Item 1" width="474" height="613"/>
+        <h3>Urban Chic</h3>
+        <p>$89.99</p>
+      </div>
+      <div class="product-card" data-aos="flip-right">
+        <img src="images/img333.jpg" alt="Fashion Item 2" width="736" height="1069" >
+        <h3>Classic Elegance</h3>
+        <p>$129.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-left">
+    <h2>About Us</h2>
+    <p>We are passionate about bringing you the latest trends in fashion. Our mission is to make style accessible for everyone.</p>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>© 2025 Fashion Forward. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
